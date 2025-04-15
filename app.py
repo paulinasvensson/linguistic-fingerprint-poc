@@ -1,3 +1,5 @@
+st.image("dgg-banner.png", use_column_width=True)
+
 import streamlit as st
 
 st.set_page_config(page_title="Linguistic Fingerprinting PoC", layout="wide")
@@ -35,3 +37,12 @@ st.markdown("---")
 
 if st.button("Go to Analysis Tool"):
     st.switch_page("pages/analysis_tool.py")
+
+st.markdown("---")
+st.markdown(
+    "<p style='text-align: center; font-size: 12px; color: grey;'>"
+    "© 2025 Paulina Svensson / Digital Governance Group. All rights reserved."
+    "</p>",
+    unsafe_allow_html=True
+)
+
