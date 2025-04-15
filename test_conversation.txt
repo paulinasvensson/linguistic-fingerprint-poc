@@ -1,0 +1,46 @@
+Last login: Tue Apr 15 10:41:59 on ttys000
+paulinasvensson@MacBook-Air-som-tillhor-Paulina-2 ~ % cd ~/Desktop/linguistic-fingerprint-poc
+
+paulinasvensson@MacBook-Air-som-tillhor-Paulina-2 linguistic-fingerprint-poc % nano test_conversation.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  UW PICO 5.09              File: test_conversation.txt               Modified  
+
+Person 1: Based on our previous interactions, I compiled the engagement   
+metrics into a dashboard. The results indicate a 23% increase in 
+efficiency post-implementation.
+
+Person 2: oh wow that’s awesome! didn’t expect that lol 😅 do you think we
+can hit 30 if we fix the notification thing?
+
+Person 1: That is plausible. If we refine the alert logic and reduce 
+redundancy in the API calls, we could likely reach that benchmark.
+
+Person 2: nicee sounds good! btw i’ll be offline tomorrow, dentist 😭
+
+
+
+
+
+
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Pg   ^K Cut Text  ^C Cur Pos   
+^X Exit      ^J Justify   ^W Where is  ^V Next Pg   ^U UnCut Text^T To Spell  
