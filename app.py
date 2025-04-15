@@ -29,8 +29,6 @@ if not agreed:
     st.warning("You must agree to the Terms of Use to access the application.")
     st.stop()
 
-st.image("dgg-banner.png", use_column_width=True)
-
 st.set_page_config(page_title="Linguistic Fingerprinting PoC", layout="wide")
 
 st.title("Instructions and Information Before Using the Proof of Concept")
