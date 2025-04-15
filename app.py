@@ -1,8 +1,9 @@
 import streamlit as st
 
-# Terms of Use Gatekeeper
+# 🧠 Page config – måste vara först
 st.set_page_config(page_title="Linguistic Fingerprinting PoC", layout="wide")
 
+# 📜 Terms of Use gatekeeper
 st.markdown("## 📜 Terms of Use & Disclaimer")
 with st.expander("Click here to read the full terms"):
     st.markdown("""
@@ -29,8 +30,7 @@ if not agreed:
     st.warning("You must agree to the Terms of Use to access the application.")
     st.stop()
 
-st.set_page_config(page_title="Linguistic Fingerprinting PoC", layout="wide")
-
+# 📄 App introduction and instructions
 st.title("Instructions and Information Before Using the Proof of Concept")
 
 st.markdown("""
@@ -62,9 +62,11 @@ If you do not have your own text, we recommend starting with this sample; copy i
 
 st.markdown("---")
 
+# 🚀 Navigation
 if st.button("Go to Analysis Tool"):
     st.switch_page("pages/analysis_tool.py")
 
+# 📎 Footer
 st.markdown("---")
 st.markdown(
     "<p style='text-align: center; font-size: 12px; color: grey;'>"
